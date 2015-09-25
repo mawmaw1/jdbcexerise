@@ -34,8 +34,6 @@
                     <th>Employee zipcode</th>
 
 
-
-
                 </tr>
 
                 <c:forEach var="employee" items="${listEmployees.rows}">
@@ -44,10 +42,6 @@
                         <td><c:out value="${employee.eno}"/></td>
                         <td><c:out value="${employee.ename}"/></td>
                         <td><c:out value="${employee.zip}"/></td> 
-
-
-
-
 
                     </tr>
                 </c:forEach>
