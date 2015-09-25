@@ -49,7 +49,8 @@
 
         </div>
 
-
+            <p><a href="reg.jsp">Register new customer here</a></p>
+            <p><a href="index.jsp">Back to index</a></p>
 
 
 

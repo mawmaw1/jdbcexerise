@@ -47,5 +47,6 @@
                 </table>
             </center>
         </form>
+        <p><a href="index.jsp">Back to index</a></p>
     </body>
 </html>
