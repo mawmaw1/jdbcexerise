@@ -13,15 +13,20 @@
     </head>
     <body>
         <h1>Hello</h1>
-        <p><a href="reg.jsp">Register new customer here</a></p>
-        <p><a href="Customers.jsp">Overview of Customers</a></p>
-        <p><a href="Employees.jsp">Overview of Employees</a></p>
-        
-        <div style="text-align: center">
+        <div style="float: left; width: 50%">
+            <ul>
+                <li><p><a href="reg.jsp">Register new customer here</a></p></li>
+                <li><p><a href="Customers.jsp">Overview of Customers</a></p></li>
+                <li><p><a href="Employees.jsp">Overview of Employees</a></p></li>
+            </ul>
+        </div>
+        <div style="float: right; width: 50%">
+
             <a href="https://www.facebook.com/christoffer.mikkelsen.54?fref=ts">
                 <img src="https://scontent-ams3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/11692552_10206733932408006_1037463934764378021_n.jpg?oh=fe9ab220c3f2ad50bf9ef414f532b0ab&oe=569812BD" alt="hej" style="width:350px;height:550px;"/>
             </a>
+
         </div>
-        
+
     </body>
 </html>
