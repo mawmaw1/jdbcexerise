@@ -25,34 +25,34 @@
         </sql:query>
 
         <div align="center">
-            
+
             <table border = 1>
 
                 <tr>
                     <th>Employee number</th>
                     <th>Employee name</th>
                     <th>Employee zipcode</th>
-                    
-                    
+
+
 
 
                 </tr>
-                
+
                 <c:forEach var="employee" items="${listEmployees.rows}">
-                   
+
                     <tr>
                         <td><c:out value="${employee.eno}"/></td>
                         <td><c:out value="${employee.ename}"/></td>
                         <td><c:out value="${employee.zip}"/></td> 
-                        
-                        
-                        
-                        
-                        
+
+
+
+
+
                     </tr>
                 </c:forEach>
             </table>
-                
+
         </div>
 
 
