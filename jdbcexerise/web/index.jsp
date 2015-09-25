@@ -10,6 +10,14 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+        <style type ="text/css" >
+   .footer{ 
+       position: fixed;     
+       text-align: center;    
+       bottom: 0px; 
+       width: 100%;
+   }  
+</style>
     </head>
     <body>
         <h1>Hello</h1>
@@ -18,6 +26,7 @@
                 <li><p><a href="reg.jsp">Register new customer here</a></p></li>
                 <li><p><a href="Customers.jsp">Overview of Customers</a></p></li>
                 <li><p><a href="Employees.jsp">Overview of Employees</a></p></li>
+
             </ul>
         </div>
         <div style="float: right; width: 50%">
@@ -27,6 +36,8 @@
             </a>
 
         </div>
+
+        <div class="footer">Ingi & Magnus &copy;</div>
 
     </body>
 </html>
