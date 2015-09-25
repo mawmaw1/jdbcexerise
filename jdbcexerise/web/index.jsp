@@ -17,5 +17,11 @@
         <p><a href="Customers.jsp">Overview of Customers</a></p>
         <p><a href="Employees.jsp">Overview of Employees</a></p>
         
+        <div style="display:table-cell; vertical-align:middle; text-align:center">
+            <a href="https://www.facebook.com/christoffer.mikkelsen.54?fref=ts">
+                <img src="https://scontent-ams3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/11692552_10206733932408006_1037463934764378021_n.jpg?oh=fe9ab220c3f2ad50bf9ef414f532b0ab&oe=569812BD" alt="hej" style="width:350px;height:550px;"/>
+            </a>
+        </div>
+        
     </body>
 </html>
