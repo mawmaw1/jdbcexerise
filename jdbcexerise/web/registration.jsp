@@ -30,6 +30,7 @@
             con.close();
             
             
+            
    }
         //session.setAttribute("userid", user);
         response.sendRedirect("Customers.jsp");
